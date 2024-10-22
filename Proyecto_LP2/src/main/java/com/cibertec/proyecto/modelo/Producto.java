@@ -21,7 +21,7 @@ public class Producto {
     @Column(length = 300)
     private String descripcion; 
 
-    @Column(nullable = false, precision = 10, scale = 2)
+    @Column(nullable = false)
     private double precio; 
 
     @Column(nullable = false)

@@ -18,7 +18,7 @@ public class Venta {
     @Column(nullable = false)
     private java.sql.Date fechaVenta; 
 
-    @Column(nullable = false, precision = 10, scale = 2)
+    @Column(nullable = false)
     private double montoTotal; 
 
     private int estado; 
