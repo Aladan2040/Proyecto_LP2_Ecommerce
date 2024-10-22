@@ -7,5 +7,5 @@ import com.cibertec.proyecto.modelo.Producto;
 
 @Repository
 public interface IProducto extends CrudRepository<Producto, Integer>{
-	
+
 }
